@@ -1,565 +1,718 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-
-    <title>Prashant</title>
-	<link rel="icon" href="images/title logo.png" type="image/png">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Oli | DevOps Engineer</title>
+    <link rel="icon" href="images/title logo.png" type="image/png">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- AOS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-
-
-
-<style>
-
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
-
-
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Prashant Oli</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-				<div class="one-third js-fullheight order-md-last img" style="background-image: url('images/profile-removebg-preview.png');">
-
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Prashant Oli</span></h1>
-
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<script>
-
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'Learner ',
-						'Student  ',
-						
-						
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>A DevOps Enthusiast</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-			            <p><a href="https://www.linkedin.com/in/prashant-oli/" class="btn btn-primary py-3 px-4">Linkedin</a> 
-							<a href="https://github.com/Prashantoli" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
-    </section>
-
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/Untitled design-modified.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Prashant Oli</span></p>
-										<p><span class="title-s">Job Role: </span> <span>DevOps Engineer</span></p>
-										<!-- <p><span class="title-s">Experience: </span> <span>5 Years 3 Months</span></p> -->
-										<p><span class="title-s">Address: </span> <span>Kathmandu , Nepal</span></p>
-									  </div>
-									</div>
-								  </div>
-
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>AWS</span> <span class="pull-right">75%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">75%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>C </span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span> Docker</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Jenkins</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>DevOps certified fresher with a strong foundation in automation and continuous integration,
-									 backed by hands-on experience in problem-solving through tech club initiatives.
-									  Skilled in server management, scripting, and collaborative teamwork,
-									   with a keen interest in optimizing IT workflows and processes. Eager to contribute to innovative projects and drive efficiency in dynamic environments.</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Computer Science and Information Technology</span></li>
-									<li class="d-flex"><span>Language:</span> <span>Nepali ,English, Hindi</span></li>
-									
-									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, Database , Python &amp; SEO</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Photography, Teaching</span></li>
-									
-								</ul>
-							</div>
-						</div>
-
-
-						<!-- <div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="30">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/prashant-oli/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-
-
-	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>DevOps Enthusiast with eager to learn and explore myself to solve the real world problems.</p>
-          </div>
-        </div>
-
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-		
-			<div class="d-flex justify-content-center">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2022-</span>
-						<h2>DevOps Enthusiast</h2>
-						<span class="position"></span>
-						<p class="mt-4"> 
-							<ul>
-								<li>Successfully Deployed the Three-tier node js application on the local host. </li>
-								<li>Delivered and deployed multiple projects on the clous platform AWS .</li>
-								<li>Member of the tech club of my college .</li>
-							</ul>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2022-2026</span>
-    					<h2>Bachelor of Computer Science &amp; Information Technology</h2>
-    					<span class="position">Tribhuvan University</span>
-    					<!-- <p class="mt-4"></p> -->
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2017-2020</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Capital College &amp; Research Center</span>
-    					<p class="mt-4">Grade: 3.53</p>
-    				</div>
-				</div>
-    		</div>
-
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="images/prashant1cv.png" download class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-	<section class="ftco-section" id="project-section">
-		<div class="container">
-		  <div class="row justify-content-center mb-5 pb-5">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-			  <h1 class="big big-2">Projects</h1>
-			  <h2 class="mb-4">Projects</h2>
-			  <p>Below are the some of my projects related to DevOps.</p>
-			</div>
-		  </div>
-		  <div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/Prashantoli" class="block-20 zoom-effect" style="background-image: url('images/project1.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/Prashantoli">Jenkins Declerative CICD pipeline using AWS cloud and Dockerhub. </a></h3>
-				  <p>Implemented an end to end CI/CD pipeline for
-					note-todo application using Jenkins declarative pipelines. 
-					As part of the pipeline, I have implemented various stages such
-					As Build, Unit testing, static code analysis, Creation 
-					Of Docker Images..</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/Prashantoli/createce2usingterraform.git" class="block-20 zoom-effect" style="background-image: url('images/project2.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/Prashantoli/createce2usingterraform.git">Automating AWS Deployments with Terraform:</a></h3>
-				  <p>Provisioning an AWS EC2 instance using Terraform involves writing infrastructure as code, initializing Terraform, planning the deployment, and applying the configuration to create and manage the instance.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry">
-				<a href="https://github.com/Prashantoli/cicd2.git" class="block-20 zoom-effect" style="background-image: url('images/projecct3.jpeg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/Prashantoli/cicd2.git">Implemented Three Tier Architecture</a></h3>
-				  <p>Implemented a three tier Architecture that is highly available
-					and scalable using Terraform and deployed the application
-					on Ec2 Instances using the User Data script.</p>
-				</div>
-			  </div>
-			</div>
-		  </div>
-	  <br>
-		 
-	  </section>
-	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg);">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>More projects on Github</h2>
-					<div class="heading">
-						<h4>I love to debug problems &amp; try to solve them.</h4>
-						<br>
-						<a href="https://github.com/Prashantoli" class="btn btn-primary py-3 px-5">GitHub</a>
-                    </div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	</section>
-
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Kathmandu , Nepal</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel:+977 9868935280">+977 986*******</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">prashantoolee7@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-				  <p><a href="images/prashant1cv.png" download>Resume Link</a></p>
-
-	          </div>
-          </div>
-
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/GyBBKPmXdMzb9NqY9" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/prashant-oli/"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://twitter.com/@Prashantoli59/"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009340832727"><span class="icon-facebook"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/imnotauser1234567/"><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
-
-
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
-
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
     
-  </body>
+    <!-- Styles are now in css/style.css -->
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Prashant Oli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars" style="color: var(--text-primary);"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="hero-subtitle">👋 Hello, I'm</span>
+                    <h1 class="hero-title">
+                        Prashant <span>Oli</span>
+                    </h1>
+                    <div class="typing-text">
+                        <span id="typing-text"></span>
+                        <span class="cursor"></span>
+                    </div>
+                    <p class="hero-description mt-4">
+                        DevOps Engineer passionate about automation, cloud infrastructure, and building scalable systems. 
+                        Transforming complex workflows into elegant, efficient solutions.
+                    </p>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#projects" class="btn btn-primary-custom">View Projects</a>
+                        <a href="#contact" class="btn btn-outline-custom">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image text-center" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/profile-removebg-preview.png" alt="Prashant Oli">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Get To Know</p>
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-description">
+                    Dedicated DevOps enthusiast with a passion for automation and cloud technologies
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-card">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="about-image">
+                                    <img src="images/Untitled design-modified.png" alt="Profile">
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="about-info">
+                                    <h4>Prashant Oli</h4>
+                                    <p class="text-primary mb-2">DevOps Engineer</p>
+                                    <p>Kathmandu, Nepal</p>
+                                    <div class="mt-4">
+                                        <p><i class="fas fa-graduation-cap me-2 text-primary"></i> Bachelor of CS & IT</p>
+                                        <p><i class="fas fa-language me-2 text-primary"></i> Nepali, English, Hindi</p>
+                                        <p><i class="fas fa-heart me-2 text-primary"></i> Traveling, Photography</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="about-card">
+                        <h4 class="mb-4">Skills & Expertise</h4>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">AWS Cloud</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Docker & Kubernetes</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CI/CD Pipelines</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Terraform & IaC</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python & Scripting</span>
+                                <span class="skill-percent">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Jenkins & GitLab CI</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">My Work</p>
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <p class="section-description">
+                    Explore my latest DevOps projects and automation solutions
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Project 1 - New CI/CD Pipeline -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.png" alt="CI/CD Pipeline">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Prashantoli" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Docker</span>
+                                <span class="project-tag">Jenkins</span>
+                                <span class="project-tag">SonarQube</span>
+                                <span class="project-tag">Linux</span>
+                            </div>
+                            <h3 class="project-title">End-to-End CI/CD Pipeline with Observability</h3>
+                            <p class="project-description">
+                                Built a fully automated DevOps CI/CD + observability pipeline. From code commit to production deployment — everything is automated, tested, and monitored.
+                            </p>
+                            <ul class="timeline-list mt-3">
+                                <li>Dockerized application deployed on Linux VM</li>
+                                <li>Code quality analysis using SonarQube</li>
+                                <li>Automated deployment every 12 hours</li>
+                                <li>Zero manual deployment after push</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - Jenkins CI/CD -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.png" alt="Jenkins Pipeline">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Prashantoli" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Jenkins</span>
+                                <span class="project-tag">Docker</span>
+                                <span class="project-tag">AWS</span>
+                                <span class="project-tag">CI/CD</span>
+                            </div>
+                            <h3 class="project-title">Jenkins Declarative CI/CD Pipeline</h3>
+                            <p class="project-description">
+                                Implemented an end-to-end CI/CD pipeline for note-todo application using Jenkins declarative pipelines with multiple stages.
+                            </p>
+                            <ul class="timeline-list mt-3">
+                                <li>Build, Unit testing, Static code analysis</li>
+                                <li>Docker image creation & push to registry</li>
+                                <li>Automated deployment to AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - Terraform -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projecct3.jpeg" alt="Terraform">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Prashantoli/createce2usingterraform.git" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Terraform</span>
+                                <span class="project-tag">AWS</span>
+                                <span class="project-tag">IaC</span>
+                                <span class="project-tag">EC2</span>
+                            </div>
+                            <h3 class="project-title">AWS Infrastructure with Terraform</h3>
+                            <p class="project-description">
+                                Provisioning AWS EC2 instances using Terraform with infrastructure as code approach for scalable deployments.
+                            </p>
+                            <ul class="timeline-list mt-3">
+                                <li>Infrastructure as Code implementation</li>
+                                <li>Automated AWS resource provisioning</li>
+                                <li>Scalable and reproducible deployments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Career Journey</p>
+                <h2 class="section-title">Experience & <span>Education</span></h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-5" data-aos="fade-right" data-aos-duration="1000">
+                    <h3 class="mb-4"><i class="fas fa-briefcase me-2 text-primary"></i>Experience</h3>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - Present</div>
+                            <h4 class="timeline-title">DevOps Enthusiast</h4>
+                            <p class="timeline-company">Self-employed / Freelance</p>
+                            <ul class="timeline-list">
+                                <li>Successfully deployed three-tier Node.js applications on localhost</li>
+                                <li>Delivered and deployed multiple projects on AWS cloud platform</li>
+                                <li>Active member of tech club at college</li>
+                                <li>Automated CI/CD pipelines reducing deployment time by 80%</li>
+                                <li>Implemented monitoring solutions for production environments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-5" data-aos="fade-left" data-aos-duration="1000">
+                    <h3 class="mb-4"><i class="fas fa-graduation-cap me-2 text-primary"></i>Education</h3>
+                    
+                    <div class="education-card">
+                        <div class="education-year">2022 - 2026</div>
+                        <h4 class="education-degree">Bachelor of Computer Science & Information Technology</h4>
+                        <p class="education-school">Tribhuvan University</p>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-year">2017 - 2020</div>
+                        <h4 class="education-degree">Higher Secondary School</h4>
+                        <p class="education-school">Capital College & Research Center</p>
+                        <p class="text-primary mt-2">Grade: 3.53</p>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="images/prashant1cv.png" download class="btn btn-primary-custom">
+                            <i class="fas fa-download me-2"></i>Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section" id="blog">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Latest Insights</p>
+                <h2 class="section-title">Blog & <span>Articles</span></h2>
+                <p class="section-description">
+                    Sharing my knowledge and experiences in DevOps, cloud technologies, and system administration
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Blog Post 1: Restic/Backrest -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/project1.png" alt="Restic Backrest Setup">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Backup & Storage</span>
+                            <h3 class="blog-title">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal1">Setting Up Restic Backup with Backrest UI on AWS EC2</a>
+                            </h3>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar me-1"></i> Aug 18, 2026</span>
+                                <span><i class="fas fa-clock me-1"></i> 5 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/project2.png" alt="Blog Post">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">CI/CD</span>
+                            <h3 class="blog-title">
+                                <a href="#">Building a Production-Ready CI/CD Pipeline with Jenkins and Docker</a>
+                            </h3>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar me-1"></i> Jan 15, 2024</span>
+                                <span><i class="fas fa-clock me-1"></i> 8 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/projecct3.jpeg" alt="Blog Post">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Infrastructure</span>
+                            <h3 class="blog-title">
+                                <a href="#">Getting Started with Terraform: AWS EC2 in 30 Minutes</a>
+                            </h3>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar me-1"></i> Feb 20, 2024</span>
+                                <span><i class="fas fa-clock me-1"></i> 6 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Modal - Restic/Backrest -->
+    <div class="modal fade" id="blogModal1" tabindex="-1" aria-labelledby="blogModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content" style="background: var(--bg-card); border: 1px solid var(--border);">
+                <div class="modal-header" style="border-bottom: 1px solid var(--border);">
+                    <h5 class="modal-title" id="blogModal1Label" style="color: var(--text-primary);">Setting Up Restic Backup with Backrest UI on AWS EC2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(1);"></button>
+                </div>
+                <div class="modal-body" style="color: var(--text-secondary);">
+                    <div class="blog-post-content">
+                        <div class="mb-4">
+                            <span class="blog-category">Backup & Storage</span>
+                            <span class="ms-3" style="color: var(--text-secondary);"><i class="fas fa-calendar me-1"></i> Aug 18, 2026</span>
+                        </div>
+                        
+                        <h3 style="color: var(--text-primary);">Successfully set up Restic backup with a sleek UI using Backrest on an EC2 instance!</h3>
+                        
+                        <p class="mt-4">After a bit of Linux wrangling, tweaking systemd services, and battling with environment variables 😅 — I finally got <strong style="color: var(--primary);">Backrest</strong>, a Restic-based backup web UI, running and accessible on port 9898 via the public IP of my AWS EC2 instance.</p>
+                        
+                        <div class="p-3 mt-4 mb-4" style="background: rgba(0, 212, 255, 0.1); border-radius: 8px; border-left: 4px solid var(--primary);">
+                            <h5 style="color: var(--text-primary);"><i class="fas fa-box me-2"></i>📦 What is Restic?</h5>
+                            <p class="mb-0">Restic is already a fantastic tool for secure, deduplicated backups — and pairing it with a web interface like Backrest makes it even more user-friendly and powerful.</p>
+                        </div>
+                        
+                        <div class="p-3 mb-4" style="background: rgba(124, 58, 237, 0.1); border-radius: 8px; border-left: 4px solid var(--secondary);">
+                            <h5 style="color: var(--text-primary);"><i class="fas fa-wrench me-2"></i>🛠️ Key Takeaways:</h5>
+                            <ul class="mb-0">
+                                <li>Learned how to expose localhost-bound services securely</li>
+                                <li>Set up custom systemd services and wrapper scripts</li>
+                                <li>Debugged service environment variables effectively</li>
+                            </ul>
+                        </div>
+                        
+                        <p>If you're looking for a minimal but effective UI for Restic backups — definitely check out Backrest.</p>
+                        
+                        <div class="p-3 mb-4" style="background: rgba(34, 211, 238, 0.1); border-radius: 8px; border-left: 4px solid var(--accent);">
+                            <h5 style="color: var(--text-primary);"><i class="fas fa-shield-alt me-2"></i>💾 Why Backup Matters</h5>
+                            <p class="mb-0">Backup = peace of mind. Feeling good seeing it all work!</p>
+                        </div>
+                        
+                        <h5 style="color: var(--text-primary);">Technical Details</h5>
+                        <ul>
+                            <li><strong>Platform:</strong> AWS EC2 Instance</li>
+                            <li><strong>Backup Tool:</strong> Restic (deduplicated, encrypted backups)</li>
+                            <li><strong>Web UI:</strong> Backrest</li>
+                            <li><strong>Port:</strong> 9898 (publicly accessible)</li>
+                            <li><strong>Service:</strong> Custom systemd service with wrapper scripts</li>
+                        </ul>
+                        
+                        <div class="mt-4">
+                            <h5 style="color: var(--text-primary);">Architecture Flow</h5>
+                            <div class="p-3" style="background: var(--bg-dark); border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 0.875rem; color: var(--accent);">
+                                <code>
+                                    Data → Restic Repository → Backrest UI → EC2 Instance → Public IP:9898
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border-top: 1px solid var(--border);">
+                    <button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <p class="section-description">
+                    Have a project in mind? Let's discuss how I can help
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="contact-card mb-4">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 class="contact-title">Location</h4>
+                        <p class="contact-info">Kathmandu, Nepal</p>
+                    </div>
+                    
+                    <div class="contact-card mb-4">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="contact-title">Email</h4>
+                        <p class="contact-info">
+                            <a href="mailto:prashantoolee7@gmail.com">prashantoolee7@gmail.com</a>
+                        </p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h4 class="contact-title">Resume</h4>
+                        <p class="contact-info">
+                            <a href="images/prashant1cv.png" download>Download CV</a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-8" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-custom w-100">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Prashant Oli</div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/prashant-oli/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Prashantoli" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/@Prashantoli59/" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100009340832727" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/imnotauser1234567/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <script>document.write(new Date().getFullYear());</script> Prashant Oli. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out'
+        });
+        
+        // Typing Animation
+        const typingTexts = [
+            'DevOps Engineer',
+            'Cloud Enthusiast',
+            'Automation Expert',
+            'Infrastructure Architect',
+            'CI/CD Specialist'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-text');
+        
+        function typeText() {
+            const currentText = typingTexts[textIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            let typeSpeed = isDeleting ? 50 : 100;
+            
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % typingTexts.length;
+                typeSpeed = 500;
+            }
+            
+            setTimeout(typeText, typeSpeed);
+        }
+        
+        // Start typing animation
+        typeText();
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Active nav link on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Create particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 15 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        createParticles();
+        
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
 </html>
